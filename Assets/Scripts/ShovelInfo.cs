@@ -1,8 +1,11 @@
-﻿using System;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Displays the information of the shovel, 
+/// this class is attached to the UI report element
+/// </summary>
 public class ShovelInfo : MonoBehaviour
 {
     [SerializeField] private TMP_Text shovelNameText;
@@ -20,6 +23,10 @@ public class ShovelInfo : MonoBehaviour
         reportsManager = FindObjectOfType<ReportsManager>();
     }
 
+    /// <summary>
+    /// Display the information of the selected shovel
+    /// </summary>
+    /// <param name="shovel">shovel info to display</param>
     public void Setup(Shovel shovel)
     {
         shovelNameText.text = shovel.Name;

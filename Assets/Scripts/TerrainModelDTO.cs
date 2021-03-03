@@ -1,4 +1,7 @@
-﻿[System.Serializable]
+﻿/// <summary>
+/// Class for service handling
+/// </summary>
+[System.Serializable]
 public class TerrainModelDTO 
 {
     public string ObjUrl;

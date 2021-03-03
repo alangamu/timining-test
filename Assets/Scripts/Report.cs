@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
+/// <summary>
+/// Class for service handling
+/// </summary>
 [Serializable]
 public class Report 
 {
@@ -10,6 +13,9 @@ public class Report
     public List<LastStatesClass> LastStates;
 }
 
+/// <summary>
+/// Class for service handling
+/// </summary>
 [Serializable]
 public class LastStatesClass
 {

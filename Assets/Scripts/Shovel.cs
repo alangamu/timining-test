@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Class for service handling
+/// </summary>
 [System.Serializable]
 public class Shovel 
 {

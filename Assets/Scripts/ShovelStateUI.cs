@@ -2,6 +2,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Report details class, attached to prefab
+/// </summary>
 public class ShovelStateUI : MonoBehaviour
 {
     [SerializeField] private TMP_Text startText;
@@ -9,6 +12,10 @@ public class ShovelStateUI : MonoBehaviour
     [SerializeField] private TMP_Text stateNameText;
     [SerializeField] private Image indicatorImage;
 
+    /// <summary>
+    /// Display the report information
+    /// </summary>
+    /// <param name="state">information to display</param>
     public void Setup(LastStatesClass state)
     {
         startText.text = state.Start;

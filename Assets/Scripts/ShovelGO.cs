@@ -1,6 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
+/// <summary>
+/// Class attached to the shovel game object
+/// </summary>
 public class ShovelGO : MonoBehaviour
 {
     public event Action<Shovel, bool> OnShovelSelected;
